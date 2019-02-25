@@ -1,0 +1,138 @@
+h1 {
+	background-color: #313639;
+	color: white;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+h2 {
+	font-family: 'Lobster', cursive;
+	color: #fff;
+	font-size: 6em;
+	text-align: center;
+	text-shadow:
+		-1px -1px 0 #313639,
+		1px -1px 0 #313639,
+		-1px 1px 0 #313639,
+		1px 1px 0 #313639;
+}
+
+.fa-edit {
+	float: right;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #7F7FD5;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #429EA6, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #429EA6, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+li {
+	background-color: #fff;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+}
+
+/* every other row grey */
+li:nth-child(2n) {
+	background-color: #f7f7f7;
+}
+
+.trash {
+	background-color: #e74c3c;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 0;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+li:hover span {
+	width: 40px;
+	opacity: 1.0;
+}
+
+#listBox input {
+	font-size: 18px;
+	background-color: #f7f7f7;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	color: #313639;
+	border: 3px solid rgba(0,0,0,0); /* invisible border to flush align border*/
+}
+
+input:focus {
+	background-color: #fff;
+	border: 3px solid #313639;
+	outline: none;
+}
+
+#newName {
+	border: 1px solid #313639;
+	color: #313639;
+	font-size: 18px;
+	background-color: #f7f7f7;
+	width: 70%;
+	height: 50px;
+	margin: 15px 0 15px 25px;
+	padding: 13px 13px 13px 20px;
+}
+
+button {
+	height: 78px;
+	width: 15%;
+	border: 1px solid #313639;
+	margin-left: 5px;
+	font-size: 18px;
+	background-color: #f7f7f7;
+	padding: 13px;
+
+}
+
+select {
+	width: 90%;
+	height: 50px;
+	margin: 15px 0 15px 25px;
+	text-align: center;
+}
+
+.container {
+	width: 560px;
+	margin: 0 auto;
+	box-shadow: 0 0 3px rgba(0,0,0,0.1);
+	background-color: #f7f7f7;
+}
+
+.completed {
+	color: gray;
+	text-decoration: line-through;
+}
+
+.saved {
+	border: 2px solid #86A8E7;
+}
+
+.saved-text {
+	color: #7F7FD5;
+	font-size: 12px;
+	margin: 0 0 15px 15px;
+	padding: 0 13px 13px 10px;
+}
+.hide {
+	display: none;
+}
